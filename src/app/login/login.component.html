@@ -1,0 +1,15 @@
+<form class="container" style="padding:150px 200px 0px 200px;">
+  <div class="mb-3">
+    <label for="username" class="form-label">Name</label>
+    <input type="text" class="form-control" name="u_name" [(ngModel)]="username">
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email address</label>
+    <input type="text" class="form-control" name="mail" [(ngModel)]="email">
+  </div>
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" class="form-control" name="pwd" [(ngModel)]="password">
+  </div>
+  <button id="Button" class="btn btn-info" (click)="submit()">Submit</button>
+</form>
